@@ -1,0 +1,23 @@
+{
+  "name": "Socket-Chess-Example",
+  "description": "socket.io chess app",
+  "website": "https://github.com/exd4/mad-hatter",
+  "repository": "https://github.com/exd4/mad-hatter",
+  "logo": "https://node-js-sample.herokuapp.com/node.svg",
+  "success_url": "/",
+  "keywords": [
+    "node",
+    "express",
+    "socket.io",
+    "realtime",
+    "websocket",
+    "chess"
+  ],
+  "scripts": {
+  },
+  "addons": [
+  ],
+  "env": {
+    "BUILDPACK_URL": "https://github.com/heroku/heroku-buildpack-nodejs"
+  }
+}
