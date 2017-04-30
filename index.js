@@ -8,7 +8,6 @@ var http = require('http').Server(app),
 
 app.get('/', function(req, res){
 	res.sendFile(__dirname + '/public/default.html');
-	console.log(__dirname);
 });
 
 // Called when the client calls socket.emit('move')

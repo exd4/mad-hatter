@@ -652,7 +652,7 @@ function buildPieceImgSrc(piece) {
 }
 
 function buildPiece(piece, hidden, id) {
-  var html = '<img src="' + buildPieceImgSrc(piece) + '" ';
+  var html = '<img src="./' + buildPieceImgSrc(piece) + '" ';
   if (id && typeof id === 'string') {
     html += 'id="' + id + '" ';
   }
